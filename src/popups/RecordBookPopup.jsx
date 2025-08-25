@@ -15,7 +15,7 @@ const RecordBookPopup = ({ bookId }) => {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black bg-opacity-50 p-5 flex items-center justify-center z-50">
+      <div className="fixed inset-0 bg-[#689F38] bg-opacity-50 p-5 flex items-center justify-center z-50">
         <div className="w-full bg-white rounded-lg shadow-lg md:w-1/3">
           <div className="p-6">
             <h3 className="text-xl font-bold mb-4">Record Book</h3>
@@ -30,7 +30,7 @@ const RecordBookPopup = ({ bookId }) => {
                   value={borrowerEmail}
                   onChange={(e) => setBorrowerEmail(e.target.value)}
                   placeholder="Borrower's email"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="flex justify-end space-x-4">
@@ -43,7 +43,7 @@ const RecordBookPopup = ({ bookId }) => {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800"
+                  className="px-4 py-2 bg-[#689F38] text-white rounded-md hover:bg-gray-800"
                 >
                   Record
                 </button>

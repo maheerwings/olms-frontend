@@ -73,7 +73,7 @@ const AdminDashboard = () => {
     datasets: [
       {
         data: [totalBorrowedBooks, totalReturnedBooks],
-        backgroundColor: ["#3D3E3E", "#151619"],
+        backgroundColor: ["#3D3E3E", "#689F38"],
         hoverOffset: 4,
       },
     ],
@@ -101,7 +101,7 @@ const AdminDashboard = () => {
             2xl:p-6 gap-5 h-fit xl:min-h-[150px] bg-white xl:flex-1 rounded-lg"
             >
               <img src={logo} alt="logo" className="w-auto h-12 2xl:h-20" />
-              <span className="w-[2px] bg-black h-full"></span>
+              <span className="w-[2px] bg-[#689F38] h-full"></span>
               <div className="flex flex-col gap-5">
                 <p className="flex items-center gap-3">
                   <span className="w-3 h-3 rounded-full bg-[#3D3E3E]"></span>
@@ -110,7 +110,7 @@ const AdminDashboard = () => {
                   </span>
                 </p>
                 <p className="flex items-center gap-3">
-                  <span className="w-3 h-3 rounded-full bg-[#151619]"></span>
+                  <span className="w-3 h-3 rounded-full bg-[#689F38]"></span>
                   <span className="text-xs 2xl:text-base">
                     Total Returned Books
                   </span>
@@ -129,7 +129,7 @@ const AdminDashboard = () => {
                   <span className="bg-gray-300 h-20 min-w-20 flex justify-center items-center rounded-lg">
                     <img src={usersIcon} alt="browse" className="w-8 h-8" />
                   </span>{" "}
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
                     <h4 className="font-black text-3xl">{totalUsers}</h4>
                     <p className="font-light text-gray-700 text-sm">
@@ -144,7 +144,7 @@ const AdminDashboard = () => {
                   <span className="bg-gray-300 h-20 min-w-20 flex justify-center items-center rounded-lg">
                     <img src={bookIcon} alt="browse" className="w-8 h-8" />
                   </span>{" "}
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
                     <h4 className="font-black text-3xl">{totalBooks}</h4>
                     <p className="font-light text-gray-700 text-sm">
@@ -159,7 +159,7 @@ const AdminDashboard = () => {
                   <span className="bg-gray-300 h-20 min-w-20 flex justify-center items-center rounded-lg">
                     <img src={adminIcon} alt="browse" className="w-8 h-8" />
                   </span>{" "}
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
                     <h4 className="font-black text-3xl">{totalAdmins}</h4>
                     <p className="font-light text-gray-700 text-sm">

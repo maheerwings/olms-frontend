@@ -58,7 +58,7 @@ const Header = () => {
             <span>{currentTime}</span>
             <span>{currentDate}</span>
           </div>
-          <span className="bg-black h-14 w-[2px]"></span>
+          <span className="bg-[#689F38] h-14 w-[2px]"></span>
           <img
             src={settingIcon}
             alt="setting"

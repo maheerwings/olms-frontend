@@ -8,7 +8,7 @@ const ReadBookPopup = ({ book }) => {
     <>
       <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
         <div className="bg-white rounded-lg shadow-lg w-11/12 sm:w-1/2 lg:w-1/3">
-          <div className="flex justify-between items-center bg-black text-white px-6 py-4 rounded-t-lg">
+          <div className="flex justify-between items-center bg-[#689F38] text-white px-6 py-4 rounded-t-lg">
             <h2 className="text-lg font-bold">View Book Info</h2>
             <button
               onClick={() => dispatch(toggleReadBookPopup())}

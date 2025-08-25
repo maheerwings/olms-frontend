@@ -12,7 +12,7 @@ const DeleteBookPopup = ({ bookId }) => {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+      <div className="fixed inset-0 bg-[#689F38] bg-opacity-50 flex justify-center items-center z-50">
         <div className="bg-white p-6 rounded shadow-lg w-96">
           <h2 className="text-xl font-bold mb-4">Confirm Delete</h2>
           <p>Are you sure you want to delete this book?</p>

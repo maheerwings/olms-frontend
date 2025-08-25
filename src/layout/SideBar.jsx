@@ -45,7 +45,7 @@ const SideBar = ({ isSideBarOpen, setIsSideBarOpen, setSelectedComponent }) => {
       <aside
         className={`${
           isSideBarOpen ? "left-0" : "-left-full"
-        } z-10 transition-all duration-700 md:relative md:left-0 flex w-64 bg-black text-white flex-col h-full`}
+        } z-10 transition-all duration-700 md:relative md:left-0 flex w-64 bg-[#689F38] text-white flex-col h-full`}
         style={{ position: "fixed" }}
       >
         <div className="px-6 py-4 my-8">

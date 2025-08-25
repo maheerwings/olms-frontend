@@ -62,7 +62,7 @@ const MyBorrowedBooks = () => {
             className={`relative rounded sm:rounded-tr-none sm:rounded-br-none sm:rounded-tl-lg 
               sm:rounded-bl-lg text-center border-2 font-semibold py-2 w-full sm:w-72 ${
               filter === "returned"
-                ? "bg-black text-white border-black"
+                ? "bg-[#689F38] text-white border-[#689F38]"
                 : "bg-gray-200 text-black border-gray-200 hover:bg-gray-300"
             }`}
             onClick={() => setFilter("returned")}
@@ -73,7 +73,7 @@ const MyBorrowedBooks = () => {
             className={`relative rounded sm:rounded-tl-none sm:rounded-bl-none sm:rounded-tr-lg 
               sm:rounded-br-lg text-center border-2 font-semibold py-2 w-full sm:w-72 ${
               filter === "nonReturned"
-                ? "bg-black text-white border-black"
+                ? "bg-[#689F38] text-white border-[#689F38]"
                 : "bg-gray-200 text-black border-gray-200 hover:bg-gray-300"
             }`}
             onClick={() => setFilter("nonReturned")}

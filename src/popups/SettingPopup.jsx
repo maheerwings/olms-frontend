@@ -23,12 +23,12 @@ const SettingPopup = () => {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black bg-opacity-50 p-5 flex items-center justify-center z-50">
+      <div className="fixed inset-0 bg-[#689F38] bg-opacity-50 p-5 flex items-center justify-center z-50">
         <div className="bg-white rounded-lg shadow-lg w-full sm:w-auto lg:w-1/2 2xl:w-1/3">
           {" "}
           {/* sm:w-auto lg:w-1/2 2xl:w-1/3 No:md*/}
           <div className="p-6">
-            <header className="flex justify-between items-center mb-7 pb-5 border-b-[1px] border-black">
+            <header className="flex justify-between items-center mb-7 pb-5 border-b-[1px] border-[#689F38]">
               <div className="flex items-center gap-3">
                 <img
                   src={settingIcon}
@@ -57,7 +57,7 @@ const SettingPopup = () => {
                   value={currentPassword}
                   onChange={(e) => setCurrentPassword(e.target.value)}
                   placeholder="Current Password"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4 sm:flex gap-4 items-center">
@@ -69,7 +69,7 @@ const SettingPopup = () => {
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
                   placeholder="Enter New Password"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4 sm:flex gap-4 items-center">
@@ -81,7 +81,7 @@ const SettingPopup = () => {
                   value={confirmNewPassword}
                   onChange={(e) => setConfirmNewPassword(e.target.value)}
                   placeholder="Confirm New Password"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
 
@@ -98,7 +98,7 @@ const SettingPopup = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 flex-1"
+                  className="px-4 py-2 bg-[#689F38] text-white rounded-md hover:bg-gray-800 flex-1"
                 >
                   CONFIRM
                 </button>

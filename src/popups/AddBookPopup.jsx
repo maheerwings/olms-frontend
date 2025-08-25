@@ -29,7 +29,7 @@ const AddBookPopup = () => {
   return (
     <>
     {/* COPY PASTE RECORD BOOK */}
-      <div className="fixed inset-0 bg-black bg-opacity-50 p-5 flex items-center justify-center z-50">
+      <div className="fixed inset-0 bg-[#689F38] bg-opacity-50 p-5 flex items-center justify-center z-50">
         <div className="w-full bg-white rounded-lg shadow-lg md:w-1/3">
           <div className="p-6">
             <h3 className="text-xl font-bold mb-4">Add New Book</h3>
@@ -43,7 +43,7 @@ const AddBookPopup = () => {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                   placeholder="Book's title"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4">
@@ -55,7 +55,7 @@ const AddBookPopup = () => {
                   value={author}
                   onChange={(e) => setAuthor(e.target.value)}
                   placeholder="Book's Author"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4">
@@ -67,7 +67,7 @@ const AddBookPopup = () => {
                   value={price}
                   onChange={(e) => setPrice(e.target.value)}
                   placeholder="Book's price"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4">
@@ -79,7 +79,7 @@ const AddBookPopup = () => {
                   value={quantity}
                   onChange={(e) => setQuantity(e.target.value)}
                   placeholder="Book's quantity"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                 />
               </div>
               <div className="mb-4">
@@ -90,7 +90,7 @@ const AddBookPopup = () => {
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                   placeholder="Book's description"
-                  className="w-full px-4 py-2 border border-black rounded-md"
+                  className="w-full px-4 py-2 border border-[#689F38] rounded-md"
                   rows={4}
                 />
               </div>
@@ -104,7 +104,7 @@ const AddBookPopup = () => {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800"
+                  className="px-4 py-2 bg-[#689F38] text-white rounded-md hover:bg-gray-800"
                 >
                   Add
                 </button>

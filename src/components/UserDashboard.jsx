@@ -72,7 +72,7 @@ const UserDashboard = () => {
             <div className="flex flex-col gap-7 flex-[4]">
               <div className="flex flex-col lg:flex-row gap-7 overflow-y-hidden">
                 <div className="flex items-center gap-3 bg-white p-5 min-h-[120px] overflow-y-hidden rounded-lg transition hover:shadow-inner duration-300">
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={bookIcon} alt="book" className="w-8 h-8" />
                   </span>
@@ -81,7 +81,7 @@ const UserDashboard = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-3 bg-white p-5 min-h-[120px] overflow-y-hidden rounded-lg transition hover:shadow-inner duration-300">
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={returnIcon} alt="return" className="w-8 h-8" />
                   </span>{" "}
@@ -93,7 +93,7 @@ const UserDashboard = () => {
               </div>
               <div className="flex flex-col lg:flex-row  gap-7">
                 <div className="flex items-center gap-3 bg-white p-5 max-h-[120px] overflow-y-hidden rounded-lg transition hover:shadow-inner duration-300">
-                  <span className="w-[2px] bg-black h-20 lg:h-full"></span>
+                  <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={browseIcon} alt="browse" className="w-8 h-8" />
                   </span>{" "}
@@ -134,7 +134,7 @@ const UserDashboard = () => {
             <div className="flex items-center p-8 w-full sm:w-[400px] xl:w-fit mr-5 xl:p-3 
             2xl:p-6 gap-5 h-fit xl:min-h-[150px] bg-white xl:flex-1 rounded-lg">
               <img src={logo} alt="logo" className="w-auto h-12 2xl:h-20" />
-              <span className="w-[2px] bg-black h-full"></span>
+              <span className="w-[2px] bg-[#689F38] h-full"></span>
               <div className="flex flex-col gap-5">
                 <p className="flex items-center gap-3">
                   <span className="w-3 h-3 rounded-full bg-[#3D3E3E]"></span>
