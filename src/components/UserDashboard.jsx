@@ -3,6 +3,7 @@ import logo_with_title from "../assets/logo-with-title-black.png";
 import returnIcon from "../assets/redo.png";
 import browseIcon from "../assets/pointing.png";
 import bookIcon from "../assets/book-square.png";
+import { } from "../store/slices/borrowSlice";
 import { Pie } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -56,7 +57,7 @@ const UserDashboard = () => {
     datasets: [
       {
         data: [totalBorrowedBooks, totalReturnedBooks],
-        backgroundColor: ["#3D3E3E", "#151619"],
+        backgroundColor: ["##9CCC65", "##689F38"],
         hoverOffset: 4,
       },
     ],

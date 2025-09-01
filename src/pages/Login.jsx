@@ -31,7 +31,7 @@ const Login = () => {
       toast.error(error);
       dispatch(resetAuthSlice());
     }
-  }, [dispatch, isAuthenticated, error, loading]);
+  }, [dispatch, isAuthenticated, error, message, loading]);
 
   if (isAuthenticated) {
     return <Navigate to="/" />;

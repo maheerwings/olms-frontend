@@ -73,7 +73,7 @@ const AdminDashboard = () => {
     datasets: [
       {
         data: [totalBorrowedBooks, totalReturnedBooks],
-        backgroundColor: ["#3D3E3E", "#689F38"],
+        backgroundColor: ["#9CCC65", "#689F38"],
         hoverOffset: 4,
       },
     ],

@@ -97,9 +97,9 @@ const BookManagement = () => {
             {isAuthenticated && user?.role === "Admin" && (
               <button
                 onClick={() => dispatch(toggleAddBookPopup())}
-                className="relative pl-14 w-full sm:w-52 flex gap-4 justify-center items-center py-2 px-4 bg-[#689F38] text-white rounded-md hover:bg-gray-800"
+                className="relative pl-14 w-full sm:w-52 flex gap-4 justify-center items-center py-2 px-4 bg-[#689F38] text-white rounded-md hover:bg-[#9CCC65]"
               >
-                <span className="bg-white flex justify-center items-center overflow-hidden rounded-full text-[#689F38] w-[25px] h-[25px] text-[27px] absolute left-5">
+                <span className="bg-white flex justify-center items-center overflow-hidden rounded-full text-gray-700 w-[25px] h-[25px] text-[27px] absolute left-5">
                   +
                 </span>{" "}
                 <span>Add Book</span>
