@@ -77,7 +77,7 @@ const UserDashboard = () => {
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={bookIcon} alt="book" className="w-8 h-8" />
                   </span>
-                  <p className="text-lg xl:text-xl font-semibold">
+                  <p className="text-[#689F38] xl:text-xl font-semibold">
                     Your Borrowed Book List
                   </p>
                 </div>
@@ -86,7 +86,7 @@ const UserDashboard = () => {
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={returnIcon} alt="return" className="w-8 h-8" />
                   </span>{" "}
-                  <p className="text-lg xl:text-xl font-semibold">
+                  <p className="text-[#689F38] xl:text-xl font-semibold">
                     {" "}
                     Your Returned Book List
                   </p>
@@ -98,7 +98,7 @@ const UserDashboard = () => {
                   <span className="bg-gray-300 h-20 lg:h-full min-w-20 flex justify-center items-center rounded-lg">
                     <img src={browseIcon} alt="browse" className="w-8 h-8" />
                   </span>{" "}
-                  <p className="text-lg xl:text-xl font-semibold">
+                  <p className="text-[#689F38] xl:text-xl font-semibold">
                     {" "}
                     Let's browse books inventory
                   </p>
@@ -111,14 +111,14 @@ const UserDashboard = () => {
               </div>
             </div>
 
-            <div className="bg-white p-7 text-lg sm:text-xl xl:text-3xl 2xl:text-4xl min-h-52 font-semibold relative flex-[3] flex justify-center items-center rounded-2xl">
+            <div className="bg-white p-7 text-[#689F38] sm:text-xl xl:text-3xl 2xl:text-4xl min-h-52 font-semibold relative flex-[3] flex justify-center items-center rounded-2xl">
               <h4 className="overflow-y-hidden">
                 "Embarking on the journy of reading fosters personal growth,
                 nurturing a path towards excellence and the refinedment of
                 character."
               </h4>
-              <p className="text-gray-700 text-sm sm:text-lg absolute right-[35px] sm:right-[78px] bottom-[10px]">
-                ~ BookWorm Team
+              <p className="text-[#689F38] text-sm sm:text-lg absolute right-[35px] sm:right-[78px] bottom-[10px]">
+                ~ GJIGC Team
               </p>
             </div>
           </div>

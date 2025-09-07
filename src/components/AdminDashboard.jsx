@@ -132,7 +132,7 @@ const AdminDashboard = () => {
                   <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
                     <h4 className="font-black text-3xl">{totalUsers}</h4>
-                    <p className="font-light text-gray-700 text-sm">
+                    <p className="font-light text-[#689F38] text-sm">
                       Total User Base
                     </p>
                   </div>
@@ -146,8 +146,8 @@ const AdminDashboard = () => {
                   </span>{" "}
                   <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
-                    <h4 className="font-black text-3xl">{totalBooks}</h4>
-                    <p className="font-light text-gray-700 text-sm">
+                    <h4 className="font-[#689F38] text-3xl">{totalBooks}</h4>
+                    <p className="font-light text-[#689F38] text-sm">
                       Total Book Count
                     </p>
                   </div>
@@ -162,7 +162,7 @@ const AdminDashboard = () => {
                   <span className="w-[2px] bg-[#689F38] h-20 lg:h-full"></span>
                   <div className="flex flex-col items-center gap-2">
                     <h4 className="font-black text-3xl">{totalAdmins}</h4>
-                    <p className="font-light text-gray-700 text-sm">
+                    <p className="font-light text-[#689F38] text-sm">
                       Total Admin Count
                     </p>
                   </div>
@@ -179,7 +179,7 @@ const AdminDashboard = () => {
                     <h2 className="text-xl 2xl:text-2xl font-semibold text-center">
                       {user && user.name}
                     </h2>
-                    <p className="text-gray-600 text-sm 2xl:text-base text-center">
+                    <p className="text-[#689F38] text-sm 2xl:text-base text-center">
                       Welcome to your admin dashboard. Here you can manage all
                       the settings and monitor the statistics.
                     </p>
@@ -189,7 +189,7 @@ const AdminDashboard = () => {
             </div>
 
             <div
-              className="hidden xl:flex bg-white p-7 text-lg sm:text-xl xl:text-3xl 2xl:text-4xl min-h-52 
+              className="hidden xl:flex bg-white p-7 text-[#689F38] sm:text-xl xl:text-3xl 2xl:text-4xl min-h-52 
             font-semibold relative flex-[3]  justify-center items-center rounded-2xl"
             >
               <h4 className="overflow-y-hidden">
@@ -197,8 +197,8 @@ const AdminDashboard = () => {
                 nurturing a path towards excellence and the refinedment of
                 character."
               </h4>
-              <p className="text-gray-700 text-sm sm:text-lg absolute right-[35px] sm:right-[78px] bottom-[10px]">
-                ~ BookWorm Team
+              <p className="text-[#689F38] text-sm sm:text-lg absolute right-[35px] sm:right-[78px] bottom-[10px]">
+                ~ GJIGC Team
               </p>
             </div>
           </div>
