@@ -129,7 +129,7 @@ const AddNewAdmin = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="px-4 py-2 bg-[#689F38] text-white rounded-md hover:bg-gray-800"
+                  className="px-4 py-2 bg-[#689F38] text-white rounded-md hover:bg-[#689F38]"
                 >
                   Add
                 </button>

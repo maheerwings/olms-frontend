@@ -138,13 +138,13 @@ const UserDashboard = () => {
               <span className="w-[2px] bg-[#689F38] h-full"></span>
               <div className="flex flex-col gap-5">
                 <p className="flex items-center gap-3">
-                  <span className="w-3 h-3 rounded-full bg-[#3D3E3E]"></span>
+                  <span className="w-3 h-3 rounded-full bg-[#689F38]"></span>
                   <span className="text-xs 2xl:text-base">
                     Total Borrowed Books
                   </span>
                 </p>
                 <p className="flex items-center gap-3">
-                  <span className="w-3 h-3 rounded-full bg-[#151619]"></span>
+                  <span className="w-3 h-3 rounded-full bg-[#689F38]"></span>
                   <span className="text-xs 2xl:text-base">
                     Total Returned Books
                   </span>
